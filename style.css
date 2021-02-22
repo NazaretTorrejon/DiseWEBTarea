@@ -1,0 +1,83 @@
+body {
+    display: grid;
+    grid-template-rows: 5% 5% 80% 10%;
+    grid-auto-columns: 3fr;
+    gap: 10px;
+    color:black;
+}
+header{
+    grid-column:span 3;
+    color: black;
+    font-family: "Manjari", sans-serif;
+    justify-self: center;
+    
+}
+
+nav{
+    grid-column: span 3;
+    border: solid black;
+    padding-left: 850px;
+   
+    
+}
+
+#imagen_buscador{
+    width: 25px;
+    height: 15px;
+}
+
+div button{ 
+    background-color: blue;
+    color: blue;
+}
+
+
+main{
+    
+    display: grid;
+    gap: 10px;
+    border: solid black;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+main article{
+    padding: 10px;
+    display: grid;
+    
+    justify-items: center;
+    border: solid black;
+    
+
+}
+
+
+aside {
+    display: grid;
+    padding-left: 70px;
+    padding: 50px;
+    grid-column: span 2;
+    padding-right: 70px;
+    gap: 10px;
+    border: solid black;
+
+}
+
+aside article {
+    display: grid;
+    color: black;   
+}
+
+textarea{
+    resize: none;
+}
+
+
+
+footer{
+    grid-column: span 3 ;
+   
+    border: black solid;
+    padding-left: 10px;
+}
