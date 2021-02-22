@@ -17,8 +17,6 @@ nav{
     grid-column: span 3;
     border: solid black;
     padding-left: 850px;
-   
-    
 }
 
 #imagen_buscador{
@@ -30,7 +28,6 @@ div button{
     background-color: blue;
     color: blue;
 }
-
 
 main{
     
@@ -48,7 +45,6 @@ main article{
     
     justify-items: center;
     border: solid black;
-    
 
 }
 
@@ -61,7 +57,6 @@ aside {
     padding-right: 70px;
     gap: 10px;
     border: solid black;
-
 }
 
 aside article {
