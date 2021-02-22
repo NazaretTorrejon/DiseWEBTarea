@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+           <h1>Sistema integrado de gestión</h1> 
+    </header>
+   
+    <nav>
+       <form>
+           <label for="texto_buscar">Buscar en la web </label>
+           <input type="search" id="texto_buscar" placeholder="Buscar en la web">
+       
+             <button id="buscador">
+                    <img id="imagen_buscador" src="lupa.png">
+                     <label for="text">Buscar</label>
+   
+               </button>
+   
+          
+   
+   
+       </form>
+    </nav>
+   
+     <main>
+           <h1>Menú</h1>     
+               <article>
+                   <h1>Agregar Producto</h1>
+                   <img src="cruz.png" width="100" height="50" alt="cruz">
+                   
+               </article>
+   
+               <article>
+                   <h1>Administrar Categorías</h1>
+                   <img src="lapiz.png" width="100" height="50" alt="lapiz">
+               </article>
+               <article>
+                   <h1>Existencias</h1>
+                   <img src="monedas.png" width="100" height="50" alt="monedas">
+               </article>
+               <article>
+                   <h1>Administrar Pagos</h1>
+                   <img src="tarjeta.png" width="100" height="50" alt="tarjeta">
+               </article>
+     </main>
+   
+    <aside>
+               <article>
+                   <form action="empleado" method="POST">
+                       <fieldset> 
+                           <legend>Agregar Producto</legend> 
+                           <br>
+                           <br>
+                           <label for="Codigo">Codigo* </label>
+                           <input type="search" id="Codigo" >
+                           <button type="submit" value="enviar">Validar</button>
+                           <br>
+                           <br>
+                           <br>
+                           <label for="nombre">Nombre* </label>
+                           <input type="text" id="nombre" placeholder="Solo letras y números" pattern="[a-zA-Z/s]{2,50}" title="Solo letras y números" required> </text>
+                           <br>
+                           <br>
+                           <br>
+                           <label for="Abreviatura"> Abreviatura</label>
+                           <input type="text" id="Abreviatura" placeholder="Solo letras" required>
+                           <br>
+                           <br>
+                           <br>
+                           <label for="Categoria"> Categoria*</label>
+                           <select id="Categoria"> 
+                               <option>Lácteos</option>
+                               <option>Abarrotes</option>
+                           </select> 
+                           <br>
+                           <br>
+                           <br>
+                           <label for="RUC">RUC Proveedor* </label>
+                           <input type="tel" id="RUC" pattern="[0-9]{11}" placeholder="Solo números"> 
+                           <br>
+                           <br>
+                           <br>
+                           <label for="Precio"> Precio*</label>
+                           <select id="Precio"> 
+                               <option>3</option>
+                               <option>3.5</option>
+                               <option>4</option>
+                               <option>4.5</option>
+                               <option>5</option>
+                               <option>5.5</option>
+                           </select> 
+                           <br>
+                           <br>
+                           <br>
+                           <div>
+                             <label for="color">Color de etiqueta </label>
+                             <button type="button" value="blu" >blu </button>
+                           </div>
+                           <br>
+                           <br>
+                           <br>
+                           <label for="Fecha">Fecha </label>
+                           <input type="datetime-local" id="Fecha">
+                           <br>
+                           <br>
+                           <br>
+                               <label for="Estado">Estado*  </label>
+                               <label for="Activo">Activo</label>
+                               <input type="radio" id="Activo" name="cargo">
+                               <label for="Suspendido">Suspendido</label>
+                               <input type="radio" id="Suspendido" name="cargo">
+                               <label for="De baja">De baja</label>
+                               <input type="radio" id="De baja" name="cargo">
+                           
+                           <br>
+                           <br>
+                           <br>
+                            <label for="Afecto">Afecto a impuesto*  </label>
+                            <input type="radio" id="Afecto" name="cargo">
+               
+                           <br>
+                           <br>
+                           <br>
+                           <label for="Foto">Foto </label>
+                           <input type="file" name="foto">
+                           <br>
+                           <br>
+                           <br>
+                           <label for="Descripción">Descripción </label>
+                           <textarea id="Descripción"></textarea>
+                           <br/>
+                           <br/>
+                           <br>
+                           <button type="submit" value="Grabar">Grabar</button>
+                           <button type="reset" value="Limpiar">Limpiar</button>
+                   </fieldset>
+                   </form>
+                   
+               </article>
+               
+    </aside>
+   
+       <footer>
+               <h4>¿Qué hacemos? </h4>  <h4> Enlaces Principales </h4> <h4>¿Contactanos? </h4>
+        
+       </footer>
+   
+   </body>
+   
+</html>
