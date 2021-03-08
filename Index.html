@@ -20,13 +20,11 @@
            <input type="search" id="texto_buscar" placeholder="Buscar en la web">
        
              <button id="buscador">
-                    <img id="imagen_buscador" src="lupa.png">
+                    <img id="imagen_buscador" src="lupa.png" alt="lupa">
+                    <br/>
                      <label for="text">Buscar</label>
    
                </button>
-   
-          
-   
    
        </form>
     </nav>
@@ -35,21 +33,21 @@
            <h1>Menú</h1>     
                <article>
                    <h1>Agregar Producto</h1>
-                   <img src="cruz.png" width="100" height="50" alt="cruz">
+                   <img id="imagen_cruz" src="cruz.png" alt="cruz">
                    
                </article>
    
                <article>
                    <h1>Administrar Categorías</h1>
-                   <img src="lapiz.png" width="100" height="50" alt="lapiz">
+                   <img id="imagen_lapiz" src="lapiz.png" alt="lapiz">
                </article>
                <article>
                    <h1>Existencias</h1>
-                   <img src="monedas.png" width="100" height="50" alt="monedas">
+                   <img id="imagen_monedas" src="monedas.png"  alt="monedas">
                </article>
                <article>
                    <h1>Administrar Pagos</h1>
-                   <img src="tarjeta.png" width="100" height="50" alt="tarjeta">
+                   <img id="imagen_tarjeta"  src="tarjeta.png" alt="tarjeta">
                </article>
      </main>
    
@@ -90,20 +88,13 @@
                            <br>
                            <br>
                            <label for="Precio"> Precio*</label>
-                           <select id="Precio"> 
-                               <option>3</option>
-                               <option>3.5</option>
-                               <option>4</option>
-                               <option>4.5</option>
-                               <option>5</option>
-                               <option>5.5</option>
-                           </select> 
+                           <input type="number" step="0.01" >
                            <br>
                            <br>
                            <br>
                            <div>
                              <label for="color">Color de etiqueta </label>
-                             <button type="button" value="blu" >blu </button>
+                             <button type="color" value="blu" >blu </button>
                            </div>
                            <br>
                            <br>
