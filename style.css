@@ -11,8 +11,7 @@ header{
     grid-column:span 3;
     color: black;
     font-family: "Manjari", sans-serif;
-    justify-self: center;
-    
+    justify-self: center;  
 }
 
 nav{
@@ -45,11 +44,8 @@ main{
 main article{
     padding: 10px;
     display: grid;
-    
     justify-items: center;
     border: solid black;
-    
-
 }
 
 
@@ -61,7 +57,6 @@ aside {
     padding-right: 70px;
     gap: 10px;
     border: solid black;
-
 }
 
 aside article {
@@ -73,12 +68,9 @@ textarea{
     resize: none;
 }
 
-
-
 footer{
     grid-column: span 3 ;
     padding: 50px;
-   
     border: black solid;
     padding-left: 10px;
 }
