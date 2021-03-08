@@ -7,6 +7,7 @@ body {
     text-align: center;
     border: solid black;
 }
+
 header{
     grid-column:span 3;
     color: black;
@@ -50,7 +51,6 @@ div button{
     color: blue;
 }
 
-
 main{
     
     display: grid;
@@ -67,7 +67,6 @@ main article{
     justify-items: center;
     border: solid black;
 }
-
 
 aside {
     display: grid;
