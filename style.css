@@ -25,6 +25,26 @@ nav{
     height: 15px;
 }
 
+#imagen_cruz{
+    width: 100px;
+    height: 50px;
+}
+
+#imagen_lapiz{
+    width: 100px;
+    height: 50px;
+}
+
+#imagen_monedas{
+    width: 100px;
+    height: 50px;
+}
+
+#imagen_tarjeta{
+    width: 100px;
+    height: 50px;
+}
+
 div button{ 
     background-color: blue;
     color: blue;
